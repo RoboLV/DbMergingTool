@@ -1,0 +1,11 @@
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\bin\Release\netcoreapp3.1\SQLMerger.exe
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\bin\Release\netcoreapp3.1\SQLMerger.deps.json
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\bin\Release\netcoreapp3.1\SQLMerger.runtimeconfig.json
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\bin\Release\netcoreapp3.1\SQLMerger.runtimeconfig.dev.json
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\bin\Release\netcoreapp3.1\SQLMerger.dll
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\bin\Release\netcoreapp3.1\SQLMerger.pdb
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\obj\Release\netcoreapp3.1\SQLMerger.csprojAssemblyReference.cache
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\obj\Release\netcoreapp3.1\SQLMerger.AssemblyInfoInputs.cache
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\obj\Release\netcoreapp3.1\SQLMerger.AssemblyInfo.cs
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\obj\Release\netcoreapp3.1\SQLMerger.dll
+C:\Users\denri\source\repos\SQLMerger\SQLMerger\obj\Release\netcoreapp3.1\SQLMerger.pdb
