@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "U6H24yP34r6HLpouFm//04hQ62wRl7fu5X2APBzAOgdyM3LRF5t3pI69GGHib1jgALV9FYXD4WuoTFNblMHSLA==",
+  "success": true,
+  "projectFilePath": "/Users/rihardstasan/Projects/anvol/src/migration/dbMergingTool/DbMergingTool/SQLMerger/SQLMerger.csproj",
+  "expectedPackageFiles": [
+    "/Users/rihardstasan/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/3.1.10/microsoft.aspnetcore.app.runtime.linux-x64.3.1.10.nupkg.sha512",
+    "/Users/rihardstasan/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/3.1.10/microsoft.aspnetcore.app.runtime.win-x64.3.1.10.nupkg.sha512",
+    "/Users/rihardstasan/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.10/microsoft.netcore.app.host.linux-x64.3.1.10.nupkg.sha512",
+    "/Users/rihardstasan/.nuget/packages/microsoft.netcore.app.host.win-x64/3.1.10/microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512",
+    "/Users/rihardstasan/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/3.1.10/microsoft.netcore.app.runtime.linux-x64.3.1.10.nupkg.sha512",
+    "/Users/rihardstasan/.nuget/packages/microsoft.netcore.app.runtime.win-x64/3.1.10/microsoft.netcore.app.runtime.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

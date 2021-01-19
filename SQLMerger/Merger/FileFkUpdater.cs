@@ -50,7 +50,7 @@ namespace SQLMerger.Merger
                             .Columns[columns[c]].DropIfMissingFk;
 
                     // -- Inserts
-                foreach (var insert in table.Value.Inserts)
+                    foreach (var insert in table.Value.Inserts)
                     {
                         // -- Rows
                         for (var r = 0; r < insert.Rows.Count; r++)
@@ -73,7 +73,7 @@ namespace SQLMerger.Merger
                                     {
                                         if (!removeIfMissing)
                                         {
-                                            throw new Exception($"Missing FK for table {table.Value} on column {columnId} with value {originalId}!");
+                                            // throw new Exception($"Missing FK for table {table.Value} on column {columnId} with value {originalId}!");
                                         }
 
                                         if (table.Value.PrimaryKey.Length == 1)

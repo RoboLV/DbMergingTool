@@ -256,13 +256,13 @@ namespace SQLMerger.Merger
                         else
                             prodRef[2] = "'configurable'";
                     }
-                    else if(ConfigProductRegister.ProductList[target.ID].ContainsKey(int.Parse(row[0])))
+                    /*else if(ConfigProductRegister.ProductList[target.ID].ContainsKey(int.Parse(row[0])))
                     {
                         LogDuplicates.Log("product-duplicate", row[3]);
                         //return (-999, new List<string>());
                         //joiner = "-cnf-";
                         //didSomething = true;
-                    }
+                    }*/
 
                     else if (row[2] == "'bundle'")
                     {

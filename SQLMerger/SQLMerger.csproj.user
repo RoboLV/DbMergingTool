@@ -3,4 +3,10 @@
   <PropertyGroup>
     <_LastSelectedProfileId>C:\Users\denri\source\repos\SQLMerger\SQLMerger\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <StartArguments>"./config/config_lt.json"</StartArguments>
+    <StartWorkingDirectory>..\..\..</StartWorkingDirectory>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
 </Project>

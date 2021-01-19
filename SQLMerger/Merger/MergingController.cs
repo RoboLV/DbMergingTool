@@ -46,19 +46,22 @@ namespace SQLMerger.Merger
                         configTable.Value.WhiteBox.Add(column, skus);
                     }
 
-                    foreach (var configColumn in configTable.Value.Columns)
+                    if (configTable.Value.Columns != null)
                     {
-                        if (!string.IsNullOrEmpty(configColumn.Value.PopulateChangeFromFile))
+                        foreach (var configColumn in configTable.Value.Columns)
                         {
-                            var path = configTable.Value.PopulateWhiteBoxFromFile;
-                            using var fs = File.Open(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
-                            using var bs = new BufferedStream(fs);
-                            using var sr = new StreamReader(bs);
-                            string line;
-                            while ((line = sr.ReadLine()) != null)
+                            if (!string.IsNullOrEmpty(configColumn.Value.PopulateChangeFromFile))
                             {
-                                var parts = line.Split(',');
-                                configColumn.Value.Change.Add(parts[0], parts[1]);
+                                var path = configTable.Value.PopulateWhiteBoxFromFile;
+                                using var fs = File.Open(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+                                using var bs = new BufferedStream(fs);
+                                using var sr = new StreamReader(bs);
+                                string line;
+                                while ((line = sr.ReadLine()) != null)
+                                {
+                                    var parts = line.Split(',');
+                                    configColumn.Value.Change.Add(parts[0], parts[1]);
+                                }
                             }
                         }
                     }
